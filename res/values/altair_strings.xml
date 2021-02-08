@@ -31,4 +31,7 @@
     <string name="dev_options_title">Developer options</string>
     <string name="dev_options_desc">Enable some hidden features at your own risk</string>
 
+    <!-- Recents screen, close app -->
+    <string name="recents_close_app">Close app</string>
+
 </resources>
