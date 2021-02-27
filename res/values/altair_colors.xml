@@ -16,4 +16,5 @@
 -->
 <resources>
 
+    <color name="disabled_text_color">#66000000</color> <!-- 38% black -->
 </resources>
