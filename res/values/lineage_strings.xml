@@ -66,6 +66,9 @@
     <!-- Font size -->
     <string name="font_size_title">Font size</string>
 
+    <!-- App label - max lines -->
+    <string name="icon_max_lines_title">Max lines for app label</string>
+
     <!-- Trust apps -->
     <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
     <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
