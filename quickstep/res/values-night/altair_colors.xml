@@ -16,6 +16,6 @@
 -->
 <resources>
 
-    <color name="color_dyn_screen">@*android:color/primary_dark_material_settings</color>
+    <color name="color_dyn_screen">@*android:color/background_floating_material_dark</color>
 
 </resources>
