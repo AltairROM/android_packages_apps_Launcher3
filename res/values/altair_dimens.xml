@@ -16,4 +16,6 @@
 -->
 <resources>
 
+    <!-- Overview scrolling scale animation -->
+    <dimen name="overview_scroll_scale">0.9</dimen>
 </resources>
