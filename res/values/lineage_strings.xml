@@ -86,6 +86,9 @@
     <!-- Recents -->
     <string name="action_lens">Lens</string>
 
+    <!-- Homescreen Statusbar -->
+    <string name="show_statusbar_title">Status Bar</string>
+
     <!-- Trust apps -->
     <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
     <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
