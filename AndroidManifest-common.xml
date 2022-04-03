@@ -59,7 +59,7 @@
 
     <!-- TODO(b/150802536): Enabled only for ENABLE_FIXED_ROTATION_TRANSFORM feature flag -->
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
-    
+
     <!--
     Permissions required for read/write access to the workspace data. These permission name
     should not conflict with that defined in other apps, as such an app should embed its package
@@ -87,7 +87,7 @@
         android:backupInForeground="true"
         android:fullBackupContent="@xml/backupscheme"
         android:hardwareAccelerated="true"
-        android:icon="@drawable/ic_launcher_home"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/derived_app_name"
         android:largeHeap="@bool/config_largeHeap"
         android:restoreAnyVersion="true"
