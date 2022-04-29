@@ -66,7 +66,6 @@ import com.android.quickstep.SystemUiProxy;
 
 import lineageos.providers.LineageSettings;
 
-import com.android.quickstep.SystemUiProxy;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -348,6 +347,9 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
                 // Create the illusion of this taking effect immediately
                 // Also needed because TaskbarManager inits before SystemUiProxy on start
                 boolean enabled = Utilities.getPrefs(mContext).getBoolean(DeviceProfile.KEY_PHONE_TASKBAR, isTablet);
+                LineageSettings.System.putInt(mContext.getContentResolver(),
+                        LineageSettings.System.ENABLE_TASKBAR, enabled ? 1 : 0);
+
                 SystemUiProxy.INSTANCE.get(mContext).setTaskbarEnabled(enabled);
 
                 onConfigChanged(mContext, true);
