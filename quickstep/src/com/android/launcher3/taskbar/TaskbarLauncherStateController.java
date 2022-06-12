@@ -234,7 +234,7 @@ import java.util.function.Supplier;
             // If we're already animating to the value, just leave it be instead of restarting it.
             if (!mIconAlignmentForResumedState.isAnimatingToValue(toAlignmentForResumedState)) {
                 ObjectAnimator resumeAlignAnim = mIconAlignmentForResumedState
-                        .animateToValue(toAlignmentForResumedState)
+                        .animateToValue(toAlignmentForResumedState);
                 if (isResumed) {
                     resumeAlignAnim.setDuration(duration);
                 }
