@@ -14,4 +14,7 @@
 
     <!-- Meminfo in overview -->
     <dimen name="meminfo_claimed_height">16dp</dimen>
+
+    <!-- Wallpaper carousel -->
+    <dimen name="wallpaper_carousel_height">120dp</dimen>
 </resources>
