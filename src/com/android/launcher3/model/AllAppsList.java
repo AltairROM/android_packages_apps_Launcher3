@@ -34,7 +34,6 @@ import androidx.annotation.Nullable;
 
 import com.android.launcher3.AppFilter;
 import com.android.launcher3.compat.AlphabeticIndexCompat;
-import com.android.launcher3.dagger.ApplicationContext;
 import com.android.launcher3.dagger.LauncherAppSingleton;
 import com.android.launcher3.icons.IconCache;
 import com.android.launcher3.lineage.trust.HiddenAppsFilter;
@@ -100,8 +99,7 @@ public class AllAppsList {
      * Boring constructor.
      */
     @Inject
-    public AllAppsList(IconCache iconCache, HiddenAppsFilter appFilter,
-            @ApplicationContext Context context) {
+    public AllAppsList(IconCache iconCache, HiddenAppsFilter appFilter) {
         mIconCache = iconCache;
         mAppFilter = appFilter;
         mTrustData = TrustDatabaseHelper.getInstance(context);
