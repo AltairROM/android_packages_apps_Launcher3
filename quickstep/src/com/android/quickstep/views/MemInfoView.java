@@ -18,7 +18,7 @@
 
 package com.android.quickstep.views;
 
-
+import android.os.HandlerThread;
 import android.app.ActivityManager;
 import android.content.Context;
 import android.content.Intent;
