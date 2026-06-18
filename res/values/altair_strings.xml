@@ -169,6 +169,7 @@
     <string name="recents_screenshot_title">Screenshot</string>
     <string name="recents_clear_all_title">Clear all</string>
     <string name="recents_lens_title">Lens</string>
+    <string name="recents_aosp_clear_all_title">AOSP clear all</string>
 
     <!-- Parallax -->
     <string name="short_parallax_title">Allow short parallax</string>
