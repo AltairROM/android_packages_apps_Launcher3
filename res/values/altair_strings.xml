@@ -246,4 +246,10 @@
 
     <!-- Recents style -->
     <string name="recents_scroll_vibrate_title">Scroll vibration</string>
+    <string name="recents_style_title">Recents layout style</string>
+    <string name="recents_style_default">Default</string>
+    <string name="recents_style_stock">Scale effect</string>
+    <string name="recents_style_staple">Kami style</string>
+    <string name="recents_style_ios">iOS style</string>
+    <string name="recents_style_oxygen">OxygenOS style</string>
 </resources>
