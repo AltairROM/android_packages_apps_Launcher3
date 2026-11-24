@@ -252,4 +252,7 @@
     <string name="recents_style_staple">Kami style</string>
     <string name="recents_style_ios">iOS style</string>
     <string name="recents_style_oxygen">OxygenOS style</string>
+
+    <!-- Long press option of an app drawer folder -->
+    <string name="all_apps_remove_folder">Remove folder</string>
 </resources>
